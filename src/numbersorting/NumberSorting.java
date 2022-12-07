@@ -8,6 +8,10 @@ public class NumberSorting {
 
     static Scanner input = new Scanner(System.in);
 
+    /**
+     * @param args the command line arguments
+     *             This is the main method of the program
+     */
     public static void main(String[] args) {
         ArrayList<Integer> userNumbers = new ArrayList<>();
         int userNumber = 0;
@@ -48,6 +52,11 @@ public class NumberSorting {
 
     }
 
+    /**
+     * @return String[] This method gets the user input and returns it as a string
+     *
+     *        This method also checks if the user wants to continue or not
+     */
     public static String[] getNumber() {
         int userInt = 0;
         String[] x = new String[2];
@@ -73,6 +82,10 @@ public class NumberSorting {
         }
     }
 
+    /**
+     * @param userNumbersArray This method sorts the array of numbers
+     * @return int[] This method returns the sorted array of numbers
+     */
     public static int[] sort(int[] userNumbersArray) {
 
         //declare and assign size
